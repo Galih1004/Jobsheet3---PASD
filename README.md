@@ -69,6 +69,7 @@ Menjawab Pertanyaan Percobaan 3.4
 
      Sudah
 
-4. 4. Modifikasi MatakuliahDemo agar panjang array ditentukan user.
+4. Modifikasi MatakuliahDemo agar panjang array ditentukan user.
 
+     Sudah
  
