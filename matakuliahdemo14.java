@@ -33,6 +33,14 @@ public class matakuliahdemo14 {
             System.out.println("Jumlah Jam : " + arrayOfMatakuliah[i].jumlahJam);
             System.out.println("------------------------------");
         }
+        arrayOfMatakuliah[0] = new matakuliah14("12345", "Algoritma", 2, 6 );
+        arrayOfMatakuliah[0].tambahData("12345", "Algoritma", 2, 6);
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Data Matakuliah ke-" + (i + 1));
+            arrayOfMatakuliah[i].cetakInfo();
+        }
         open.close();
     }
+ 
 }
