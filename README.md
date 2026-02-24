@@ -59,4 +59,16 @@ Menjawab Pertanyaan Percobaan 3.4
              this.nama = nama;
          }
 
-2. 
+2. Tambahkan method tambahData() pada class Matakuliah, kemudian
+     gunakan di MatakuliahDemo untuk menambahkan data Matakuliah.
+ 
+     Sudah
+
+3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian
+     gunakan di MatakuliahDemo untuk menampilkan data hasil inputan.
+
+     Sudah
+
+4. 4. Modifikasi MatakuliahDemo agar panjang array ditentukan user.
+
+ 

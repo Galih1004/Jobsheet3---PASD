@@ -4,11 +4,14 @@ public class matakuliahdemo14 {
     public static void main(String[] args) {
 
         Scanner open = new Scanner(System.in);
-        matakuliah14[] arrayOfMatakuliah = new matakuliah14[3];
         String kode, nama, dummy;
         int sks, jumlahJam;
 
-        for (int i = 0; i < 3; i++) {
+    System.out.print("Masukkan jumlah Matakuliah: ");
+     int n = Integer.parseInt(open.nextLine());
+     matakuliah14[] arrayOfMatakuliah = new matakuliah14[n];
+
+        for (int i = 0; i < n; i++) {
             System.out.println("Masukkan Data Matakuliah ke-" + (i + 1));
             System.out.print("Kode       : ");
             kode = open.nextLine();
@@ -25,7 +28,7 @@ public class matakuliahdemo14 {
             arrayOfMatakuliah[i] = new matakuliah14(kode, nama, sks, jumlahJam);
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
             System.out.println("Kode       : " + arrayOfMatakuliah[i].kode);
             System.out.println("Nama       : " + arrayOfMatakuliah[i].nama);
